@@ -1,0 +1,26 @@
+body{
+	text-align: center;
+	background: linear-gradient(to right , black ,white);
+}
+
+h1{
+	text-transform: uppercase;
+	text-shadow: 3px 3px 10px;
+	font-size: 3rem;
+	font-weight: bold;
+}
+h2{
+	text-transform: uppercase;
+	text-shadow: 3px 3px 10px;
+	font-size: 2rem;
+	font-weight: bold;
+}
+input{
+	padding: 5px;
+	margin: 10px;
+	border-radius: 10px;
+}
+/*
+1- many types of bg(up to down greadient,toward left, toward right,img ,blured img...etc)
+2- login to access bg system
+3- simple color*/

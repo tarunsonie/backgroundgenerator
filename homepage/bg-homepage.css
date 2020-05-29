@@ -1,0 +1,36 @@
+body{
+	background-image: repeating-linear-gradient(22deg, blue 20%, white 40%);
+}
+
+h1{
+	font-family: 'Acme', sans-serif;
+	text-align: center;
+	font-size: 2.6rem;	
+}
+
+h1:hover{
+	text-shadow: 0px 0px 10px blue;
+}
+
+.row{
+	height: 30rem;
+	width: 100%;
+}
+
+.col{
+	border-radius: 40px;
+	background-color: #0D98BA;
+	margin: 7px;
+	text-align: center;
+	padding-top: 220px;
+	transition: all 0.4s;
+}
+
+.col:hover{
+	transform: rotate(5deg);
+}
+a{
+	font-weight: bold;
+	font-size: 50px;
+	text-shadow: 3px 3px 10px black;
+}

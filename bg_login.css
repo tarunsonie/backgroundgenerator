@@ -1,0 +1,60 @@
+body {
+	margin: auto;
+	padding: auto;
+	background: url(bg_login.jpg) no-repeat center center fixed;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+
+}
+
+section{
+	margin: 10em auto;
+	padding: 10em; 
+}
+
+div{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+header{
+	text-shadow: 3px 3px 10px green;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+header:hover{
+	font-weight: bold;
+	text-shadow: 2px 2px 5px red;
+}
+
+a{
+	text-decoration: unset;
+}
+.btn{
+	-webkit-appearance: push-button;
+    user-select: none;
+    white-space: pre;
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    color: buttontext;
+    background-color: buttonface;
+    box-sizing: border-box;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonface;
+    border-image: initial;
+    float: right;
+    margin-top: 20px;
+}
+
+.Name{
+	margin: 10px;
+}
+
+.Gmail{
+	margin: 10px;
+}
